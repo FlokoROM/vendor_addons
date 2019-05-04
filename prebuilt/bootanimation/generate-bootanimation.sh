@@ -29,14 +29,14 @@ fi
 
 RESOLUTION=""$IMAGESIZE"x"$IMAGESIZE""
 
-for part_cnt in 1 2 3
+for part_cnt in 0 1 2
 do
     mkdir -p $ANDROID_PRODUCT_OUT/obj/BOOTANIMATION/bootanimation/part$part_cnt
 done
 tar xfp "vendor/addons/prebuilt/bootanimation/bootanimation.tar" --to-command="convert - -resize '$RESOLUTION' -colors 250 \"png8:$OUT/bootanimation/\$TAR_FILENAME\""
 
 # Create desc.txt
-echo "$SIZE $SIZE" 18 > "$OUT/bootanimation/desc.txt"
+echo "$SIZE $SIZE" 60 > "$OUT/bootanimation/desc.txt"
 cat "vendor/addons/prebuilt/bootanimation/desc.txt" >> "$OUT/bootanimation/desc.txt"
 
 # Create bootanimation.zip
