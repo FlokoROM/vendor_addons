@@ -24,6 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/addons/prebuilt/system/fonts/Comfortaa.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Comfortaa.ttf \
     vendor/addons/prebuilt/system/fonts/Coolstory-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Coolstory-Regular.ttf \
     vendor/addons/prebuilt/system/fonts/Exotwo.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Exotwo.ttf \
+    vendor/addons/prebuilt/system/fonts/HackGen-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/HackGen-Regular.ttf \
+    vendor/addons/prebuilt/system/fonts/HackGen-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/HackGen-Bold.ttf \
     vendor/addons/prebuilt/system/fonts/Koruri-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Koruri-Regular.ttf \
     vendor/addons/prebuilt/system/fonts/Storopia.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Storopia.ttf \
     vendor/addons/prebuilt/system/fonts/Surfer.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Surfer.ttf \
