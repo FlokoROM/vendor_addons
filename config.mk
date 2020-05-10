@@ -16,5 +16,9 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 DEVICE_PACKAGE_OVERLAYS += vendor/addons/overlay/common
 
+ifeq ($(TARGET_HAS_FOD),true)
+DEVICE_PACKAGE_OVERLAYS += vendor/addons/overlay-fod
+endif
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/addons/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
