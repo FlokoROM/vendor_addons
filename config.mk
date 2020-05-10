@@ -18,6 +18,7 @@ DEVICE_PACKAGE_OVERLAYS += vendor/addons/overlay/common
 
 ifeq ($(TARGET_HAS_FOD),true)
 DEVICE_PACKAGE_OVERLAYS += vendor/addons/overlay-fod
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/addons/overlay-fod
 endif
 
 PRODUCT_COPY_FILES += \
