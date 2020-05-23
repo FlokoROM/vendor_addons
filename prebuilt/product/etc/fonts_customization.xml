@@ -61,6 +61,16 @@
     <alias name="grandhotel-semi-bold" to="grandhotel" weight="600" />
     <alias name="grandhotel-bold" to="grandhotel" weight="700" />
 
+    <!-- HackGen -->
+    <family customizationType="new-named-family" name="hackgen">
+        <font weight="400" style="normal">HackGen-Regular.ttf</font>
+        <font weight="700" style="normal">HackGen-Bold.ttf</font>
+    </family>
+    <alias name="hackgen-light" to="hackgen" weight="300" />
+    <alias name="hackgen-medium" to="hackgen" weight="500" />
+    <alias name="hackgen-semi-bold" to="hackgen" weight="600" />
+    <alias name="hackgen-bold" to="hackgen" weight="700" />
+
     <!-- Koruri -->
     <family customizationType="new-named-family" name="koruri">
         <font weight="400" style="normal">Koruri-Regular.ttf</font>
