@@ -61,6 +61,15 @@
     <alias name="grandhotel-semi-bold" to="grandhotel" weight="600" />
     <alias name="grandhotel-bold" to="grandhotel" weight="700" />
 
+    <!-- Koruri -->
+    <family customizationType="new-named-family" name="koruri">
+        <font weight="400" style="normal">Koruri-Regular.ttf</font>
+    </family>
+    <alias name="koruri-light" to="koruri" weight="300" />
+    <alias name="koruri-medium" to="koruri" weight="500" />
+    <alias name="koruri-semi-bold" to="koruri" weight="600" />
+    <alias name="koruri-bold" to="koruri" weight="700" />
+
     <!-- Lato -->
     <family customizationType="new-named-family" name="lato">
         <font weight="400" style="normal">Lato-Regular.ttf</font>
