@@ -17,6 +17,11 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 DEVICE_PACKAGE_OVERLAYS += vendor/addons/overlay/common
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/addons/overlay/common
 
+ifeq ($(TARGET_HAS_UDFPS),true)
+PRODUCT_PACKAGES += \
+    UdfpsResources
+endif
+
 # Turbo Prebuilt package for Battery Estimates
 PRODUCT_PACKAGES += \
     TurboPrebuilt
