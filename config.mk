@@ -1,4 +1,4 @@
-# Copyright (C) 2017-2020 crDroid Android Project
+# Copyright (C) 2017-2022 crDroid Android Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,6 +21,10 @@ ifeq ($(TARGET_HAS_FOD),true)
 DEVICE_PACKAGE_OVERLAYS += vendor/addons/overlay-fod
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/addons/overlay-fod
 endif
+
+# Turbo Prebuilt package for Battery Estimates
+PRODUCT_PACKAGES += \
+    TurboPrebuilt
 
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
