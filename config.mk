@@ -29,26 +29,26 @@ PRODUCT_PACKAGES += \
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
-    AccuratistFont \
-    AclonicaFont \
-    Amarante \
-    BariolFont \
-    CagliostroFont \
-    ComfortaaFont \
-    CoolstoryFont \
-    ExotwoFont \
-    GrandHotelFont \
-    KoruriFont \
-    LatoFont \
-    NunitoFont \
-    OswaldFont \
-    RedressedFont \
-    ReemKufiFont \
-    RubikFont \
-    RobotoCondensedFont \
-    StoropiaFont \
-    SurferFont \
-    UbuntuFont
+    FontAccuratistOverlay \
+    FontAclonicaOverlay \
+    FontAmaranteOverlay \
+    FontBariolOverlay \
+    FontCagliostroOverlay \
+    FontComfortaaOverlay \
+    FontCoolstoryOverlay \
+    FontExotwoOverlay \
+    FontGrandHotelOverlay \
+    FontKoruriOverlay \
+    FontLatoOverlay \
+    FontNunitoOverlay \
+    FontOswaldOverlay \
+    FontRedressedOverlay \
+    FontReemKufiOverlay \
+    FontRobotoCondensedOverlay \
+    FontRubikOverlay \
+    FontStoropiaOverlay \
+    FontSurferOverlay \
+    FontUbuntuOverlay
 
 # Icon Packs
 PRODUCT_PACKAGES += \
