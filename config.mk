@@ -26,6 +26,30 @@ endif
 PRODUCT_PACKAGES += \
     TurboPrebuilt
 
+# Fonts
+PRODUCT_PACKAGES += \
+    fonts_customization.xml \
+    AccuratistFont \
+    AclonicaFont \
+    Amarante \
+    BariolFont \
+    CagliostroFont \
+    ComfortaaFont \
+    CoolstoryFont \
+    ExotwoFont \
+    GrandHotelFont \
+    KoruriFont \
+    LatoFont \
+    NunitoFont \
+    OswaldFont \
+    RedressedFont \
+    ReemKufiFont \
+    RubikFont \
+    RobotoCondensedFont \
+    StoropiaFont \
+    SurferFont \
+    UbuntuFont
+
 # Icon Packs
 PRODUCT_PACKAGES += \
     IconPackCircularAndroidOverlay \
@@ -89,6 +113,11 @@ PRODUCT_PACKAGES += \
     IconShapeTeardropOverlay \
     IconShapeVesselOverlay
 
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden
 
 # Signal / WiFi Icons
 PRODUCT_PACKAGES += \
@@ -108,6 +137,10 @@ PRODUCT_PACKAGES += \
 	XperiaWiFiOverlay \
 	ZigZagSignalOverlay \
 	ZigZagWiFiOverlay
+
+# Themes
+PRODUCT_PACKAGES += \
+    crDroidThemesStub
 
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
