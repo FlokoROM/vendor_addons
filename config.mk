@@ -17,11 +17,6 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 DEVICE_PACKAGE_OVERLAYS += vendor/addons/overlay/common
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/addons/overlay/common
 
-ifeq ($(TARGET_HAS_FOD),true)
-DEVICE_PACKAGE_OVERLAYS += vendor/addons/overlay-fod
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/addons/overlay-fod
-endif
-
 # Turbo Prebuilt package for Battery Estimates
 PRODUCT_PACKAGES += \
     TurboPrebuilt
